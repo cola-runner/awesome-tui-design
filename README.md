@@ -21,29 +21,24 @@
 
 Drop a `DESIGN.md` into your project, tell your AI agent "build me a terminal UI that looks like this" — and it just works.
 
-> **Want your CLI to feel like Lazygit?** → `cp designs/lazygit/DESIGN.md ./DESIGN.md`
->
-> **Building an AI agent? Want the Claude Code look?** → `cp designs/claude-code/DESIGN.md ./DESIGN.md`
->
-> **Love Catppuccin colors?** → `cp designs/catppuccin/DESIGN.md ./DESIGN.md`
-
 Just like [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) does for web UI, we do the same for **terminal UI**. No SDK, no dependencies — just Markdown that AI reads natively.
 
 ## How to Use
 
-Pick a theme, then tell your AI agent to follow it:
-
-```
-"Build a terminal dashboard following this design: https://github.com/cola-runner/awesome-tui-design/blob/master/designs/claude-code/DESIGN.md"
-```
-
-Or copy it into your project so agents pick it up automatically:
+**1.** Pick a theme from the [list below](#themes) and download it into your project:
 
 ```bash
-cp designs/claude-code/DESIGN.md ./DESIGN.md
+# e.g. claude-code — replace with any theme: lazygit, dracula, catppuccin...
+curl -o DESIGN.md https://raw.githubusercontent.com/cola-runner/awesome-tui-design/master/designs/claude-code/DESIGN.md
 ```
 
-Works with **any stack**: Go (Bubbletea), Rust (Ratatui), Python (Rich/Textual), TypeScript (Ink).
+**2.** Ask your AI agent:
+
+```
+Build me a terminal dashboard following the DESIGN.md in this project
+```
+
+Or clone the whole repo and let your agent pick a theme for you: `git clone https://github.com/cola-runner/awesome-tui-design.git`
 
 ## Themes
 
