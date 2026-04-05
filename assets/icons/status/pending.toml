@@ -1,0 +1,28 @@
+[meta]
+id = "icon.status.pending"
+name = "Pending"
+description = "Task pending or waiting"
+category = "icon"
+tags = ["status", "pending", "wait", "queue", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[variants]
+ascii = "o"
+unicode = "◯"
+halfblock = "◯"
+braille = "◯"
+
+[colors.16.palette]
+default = "white"
+
+[colors.256.palette]
+default = "245"
+
+[colors.truecolor.palette]
+default = "#6b7280"

@@ -1,0 +1,53 @@
+[meta]
+id = "spinner.bounce"
+name = "Bounce"
+description = "Bouncing ball spinner"
+category = "animation"
+tags = ["spinner", "loading", "bounce", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 5
+height = 1
+
+[animation]
+interval_ms = 100
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "(o   )"
+unicode = "⠁    "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "( o  )"
+unicode = " ⠂   "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "(  o )"
+unicode = "  ⠄  "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "(   o)"
+unicode = "   ⡀ "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "(  o )"
+unicode = "  ⠄  "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "( o  )"
+unicode = " ⠂   "
+
+[colors.16.palette]
+default = "yellow"
+
+[colors.truecolor.palette]
+default = "#facc15"

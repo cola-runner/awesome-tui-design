@@ -1,0 +1,33 @@
+[meta]
+id = "animation.loading.stream"
+name = "Stream"
+description = "Streaming output cursor animation for LLM text generation"
+category = "animation"
+tags = ["loading", "stream", "cursor", "typing", "ai", "agent", "llm"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[animation]
+interval_ms = 500
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "_"
+unicode = "▌"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = " "
+unicode = " "
+
+[colors.16.palette]
+default = "green"
+
+[colors.truecolor.palette]
+default = "#22c55e"

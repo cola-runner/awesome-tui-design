@@ -1,0 +1,28 @@
+[meta]
+id = "icon.status.warning"
+name = "Warning"
+description = "Warning or caution indicator"
+category = "icon"
+tags = ["status", "warning", "caution", "alert", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[variants]
+ascii = "!"
+unicode = "⚠"
+halfblock = "⚠"
+braille = "⚠"
+
+[colors.16.palette]
+default = "yellow"
+
+[colors.256.palette]
+default = "220"
+
+[colors.truecolor.palette]
+default = "#eab308"

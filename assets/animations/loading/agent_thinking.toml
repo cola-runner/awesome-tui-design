@@ -1,0 +1,63 @@
+[meta]
+id = "animation.loading.agent_thinking"
+name = "Agent Thinking"
+description = "Multi-character thinking animation for AI agent interfaces"
+category = "animation"
+tags = ["loading", "thinking", "ai", "agent", "llm", "stream"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 7
+height = 1
+
+[animation]
+interval_ms = 150
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[    ]"
+unicode = "⟨    ⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[=   ]"
+unicode = "⟨█   ⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[==  ]"
+unicode = "⟨██  ⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[=== ]"
+unicode = "⟨███ ⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[ ===]"
+unicode = "⟨ ███⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[  ==]"
+unicode = "⟨  ██⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[   =]"
+unicode = "⟨   █⟩"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "[    ]"
+unicode = "⟨    ⟩"
+
+[colors.16.palette]
+default = "magenta"
+
+[colors.truecolor.palette]
+default = "#a855f7"

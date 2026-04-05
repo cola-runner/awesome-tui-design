@@ -1,0 +1,24 @@
+name: Bug Report
+description: Report an issue with a DESIGN.md or the preview tools
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: theme
+    attributes:
+      label: Theme
+      description: Which theme is affected?
+      placeholder: e.g., designs/claude-code/DESIGN.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's wrong?
+      placeholder: |
+        The color value for "Primary" is incorrect.
+        Source code shows #D77757 but the DESIGN.md says #D97706.
+    validations:
+      required: true

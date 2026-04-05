@@ -1,0 +1,45 @@
+name: Request a DESIGN.md
+description: Request a new TUI theme or application DESIGN.md
+title: "[Request] "
+labels: ["theme-request"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of DESIGN.md are you requesting?
+      options:
+        - TUI Application (e.g., Neovim, Spotify TUI)
+        - AI/Agent CLI (e.g., Aider, Continue)
+        - Color Scheme (e.g., Solarized, Monokai)
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the application or color scheme
+      placeholder: e.g., Neovim, Solarized Dark
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the project or color scheme
+      placeholder: e.g., https://github.com/neovim/neovim
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: Why would this be a good addition? Any visual references?
+      placeholder: |
+        This is one of the most popular TUI apps with 50k+ stars.
+        It has a distinctive UI with...
+    validations:
+      required: false

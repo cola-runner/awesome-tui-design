@@ -1,0 +1,28 @@
+[meta]
+id = "icon.status.error"
+name = "Error"
+description = "Task failed or error occurred"
+category = "icon"
+tags = ["status", "error", "fail", "cross", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[variants]
+ascii = "x"
+unicode = "✗"
+halfblock = "✗"
+braille = "✗"
+
+[colors.16.palette]
+default = "red"
+
+[colors.256.palette]
+default = "196"
+
+[colors.truecolor.palette]
+default = "#ef4444"

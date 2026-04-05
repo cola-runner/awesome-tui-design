@@ -1,0 +1,58 @@
+[meta]
+id = "spinner.pulse"
+name = "Pulse"
+description = "Pulsing indicator, great for AI streaming output"
+category = "animation"
+tags = ["spinner", "loading", "pulse", "stream", "ai", "agent"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[animation]
+interval_ms = 120
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "."
+unicode = "░"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "o"
+unicode = "▒"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "O"
+unicode = "▓"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "o"
+unicode = "█"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "."
+unicode = "▓"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = " "
+unicode = "▒"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = " "
+unicode = "░"
+
+[colors.16.palette]
+default = "magenta"
+
+[colors.truecolor.palette]
+default = "#8b5cf6"

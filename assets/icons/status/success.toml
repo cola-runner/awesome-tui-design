@@ -1,0 +1,28 @@
+[meta]
+id = "icon.status.success"
+name = "Success"
+description = "Task completed successfully"
+category = "icon"
+tags = ["status", "success", "check", "done", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[variants]
+ascii = "+"
+unicode = "✓"
+halfblock = "✓"
+braille = "✓"
+
+[colors.16.palette]
+default = "green"
+
+[colors.256.palette]
+default = "34"
+
+[colors.truecolor.palette]
+default = "#22c55e"

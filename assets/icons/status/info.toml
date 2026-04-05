@@ -1,0 +1,28 @@
+[meta]
+id = "icon.status.info"
+name = "Info"
+description = "Informational message indicator"
+category = "icon"
+tags = ["status", "info", "information", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[variants]
+ascii = "i"
+unicode = "ℹ"
+halfblock = "ℹ"
+braille = "ℹ"
+
+[colors.16.palette]
+default = "blue"
+
+[colors.256.palette]
+default = "33"
+
+[colors.truecolor.palette]
+default = "#3b82f6"

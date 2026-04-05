@@ -1,0 +1,73 @@
+[meta]
+id = "spinner.dots"
+name = "Dots"
+description = "Braille dots spinner, smooth rotation effect"
+category = "animation"
+tags = ["spinner", "loading", "dots", "braille", "cli", "agent"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[animation]
+interval_ms = 80
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "|"
+unicode = "⠋"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "/"
+unicode = "⠙"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "-"
+unicode = "⠹"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "\\"
+unicode = "⠸"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "|"
+unicode = "⠼"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "/"
+unicode = "⠴"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "-"
+unicode = "⠦"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "\\"
+unicode = "⠧"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "|"
+unicode = "⠇"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "/"
+unicode = "⠏"
+
+[colors.16.palette]
+default = "cyan"
+
+[colors.truecolor.palette]
+default = "#06b6d4"

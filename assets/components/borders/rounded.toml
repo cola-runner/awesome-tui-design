@@ -1,0 +1,38 @@
+[meta]
+id = "component.border.rounded"
+name = "Rounded Border"
+description = "Rounded corner box drawing border, modern look"
+category = "component"
+tags = ["border", "box", "frame", "ui", "rounded", "modern"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[component]
+type = "border"
+
+[component.parts]
+top_left = "╭"
+top_right = "╮"
+bottom_left = "╰"
+bottom_right = "╯"
+horizontal = "─"
+vertical = "│"
+cross = "┼"
+tee_down = "┬"
+tee_up = "┴"
+tee_right = "├"
+tee_left = "┤"
+
+[component.variants.ascii.parts]
+top_left = "/"
+top_right = "\\"
+bottom_left = "\\"
+bottom_right = "/"
+horizontal = "-"
+vertical = "|"
+cross = "+"
+tee_down = "+"
+tee_up = "+"
+tee_right = "+"
+tee_left = "+"

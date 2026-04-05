@@ -1,0 +1,42 @@
+[meta]
+id = "logo.brand.tui_art"
+name = "TUI Art Logo"
+description = "The tui-art project logo in ASCII art"
+category = "logo"
+tags = ["logo", "brand", "tui-art"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 42
+height = 6
+
+[variants]
+ascii = """
+  _____  _   _  ___      _    ____ _____
+ |_   _|| | | ||_ _|    / \\  |  _ \\_   _|
+   | |  | | | | | |    / _ \\ | |_) || |
+   | |  | |_| | | |   / ___ \\|  _ < | |
+   |_|   \\___/ |___|  /_/   \\_\\_| \\_\\|_|
+                                         """
+
+[variants]
+unicode = """
+  ╔════╗╔╗ ╔╗╔══╗     ╔═╗  ╔═══╗╔════╗
+  ║╔╗╔╗║║║ ║║╚╣╠╝     ║╔╝  ║╔═╗║║╔╗╔╗║
+  ╚╝║║╚╝║║ ║║ ║║      ╚╝   ║╚═╝║╚╝║║╚╝
+    ║║  ║║ ║║ ║║   ╔═══╗   ║╔╗╔╝  ║║
+    ║║  ║╚═╝║╔╣╠╗  ╚═══╝   ║║║╚╗  ║║
+    ╚╝  ╚═══╝╚══╝           ╚╝╚═╝  ╚╝"""
+
+[colors.truecolor]
+map = """
+..cccc.cc.cc.cc..........cc..ccccc.cccc.
+.cccccc.cc.cc.cc.........cc..ccccc.cccc.
+.cc.cc..cc.cc.cc.........cc..ccccc.cccc.
+..cccc..cc.cc.cc..ccccc..cc..cccc...cc..
+..cccc..ccccc.cccc.ccccc.cc..cccc...cc..
+...cc...ccccc.cccc.......cc..cccc...cc.."""
+[colors.truecolor.palette]
+c = "#a855f7"

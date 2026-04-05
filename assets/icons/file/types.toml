@@ -1,0 +1,45 @@
+[meta]
+id = "icon.file.types"
+name = "File Type Icons"
+description = "Common file type indicators"
+category = "icon"
+tags = ["file", "type", "folder", "document", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[set.file.variants]
+ascii = "-"
+unicode = "📄"
+
+[set.folder_closed.variants]
+ascii = "+"
+unicode = "📁"
+
+[set.folder_open.variants]
+ascii = "-"
+unicode = "📂"
+
+[set.code.variants]
+ascii = "#"
+unicode = "⟨⟩"
+
+[set.image.variants]
+ascii = "*"
+unicode = "🖼"
+
+[set.config.variants]
+ascii = "@"
+unicode = "⚙"
+
+[set.lock.variants]
+ascii = "!"
+unicode = "🔒"
+
+[set.git.variants]
+ascii = "G"
+unicode = "⎇"

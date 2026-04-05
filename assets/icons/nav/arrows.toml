@@ -1,0 +1,37 @@
+[meta]
+id = "icon.nav.arrows"
+name = "Navigation Arrows"
+description = "Directional arrow set for navigation"
+category = "icon"
+tags = ["nav", "arrow", "direction", "ui", "cursor"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 1
+height = 1
+
+[set.up.variants]
+ascii = "^"
+unicode = "↑"
+
+[set.down.variants]
+ascii = "v"
+unicode = "↓"
+
+[set.left.variants]
+ascii = "<"
+unicode = "←"
+
+[set.right.variants]
+ascii = ">"
+unicode = "→"
+
+[set.pointer.variants]
+ascii = ">"
+unicode = "▸"
+
+[set.back.variants]
+ascii = "<"
+unicode = "◂"

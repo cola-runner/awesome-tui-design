@@ -1,0 +1,34 @@
+[meta]
+id = "component.progress.bar"
+name = "Progress Bar"
+description = "Horizontal progress bar with configurable fill"
+category = "component"
+tags = ["progress", "bar", "loading", "ui", "cli"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[component]
+type = "progress"
+
+[component.parts]
+left_cap = "["
+right_cap = "]"
+filled = "#"
+empty = "-"
+cursor = ">"
+
+[component.variants.unicode.parts]
+left_cap = "▕"
+right_cap = "▏"
+filled = "█"
+empty = "░"
+cursor = "▓"
+
+[component.variants.halfblock.parts]
+left_cap = "▐"
+right_cap = "▌"
+filled = "█"
+half = "▌"
+empty = " "
+cursor = "▓"

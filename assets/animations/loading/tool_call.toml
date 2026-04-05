@@ -1,0 +1,53 @@
+[meta]
+id = "animation.loading.tool_call"
+name = "Tool Call"
+description = "Animation indicating an AI agent is calling a tool/function"
+category = "animation"
+tags = ["loading", "tool", "function", "ai", "agent", "api"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[size]
+width = 3
+height = 1
+
+[animation]
+interval_ms = 200
+loop = true
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = ">>>"
+unicode = "⚡ "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = " >>"
+unicode = " ⚡"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "  >"
+unicode = "  ⚡"
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = "   "
+unicode = "⚡  "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = ">  "
+unicode = " ⚡ "
+
+[[animation.frames]]
+[animation.frames.variants]
+ascii = ">> "
+unicode = "⚡⚡ "
+
+[colors.16.palette]
+default = "yellow"
+
+[colors.truecolor.palette]
+default = "#f59e0b"

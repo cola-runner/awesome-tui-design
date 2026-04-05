@@ -1,0 +1,38 @@
+[meta]
+id = "component.border.double"
+name = "Double Line Border"
+description = "Double-line box drawing border for emphasis"
+category = "component"
+tags = ["border", "box", "frame", "ui", "double", "emphasis"]
+author = "tui-art"
+license = "MIT"
+format_version = "0.1"
+
+[component]
+type = "border"
+
+[component.parts]
+top_left = "╔"
+top_right = "╗"
+bottom_left = "╚"
+bottom_right = "╝"
+horizontal = "═"
+vertical = "║"
+cross = "╬"
+tee_down = "╦"
+tee_up = "╩"
+tee_right = "╠"
+tee_left = "╣"
+
+[component.variants.ascii.parts]
+top_left = "+"
+top_right = "+"
+bottom_left = "+"
+bottom_right = "+"
+horizontal = "="
+vertical = "|"
+cross = "+"
+tee_down = "+"
+tee_up = "+"
+tee_right = "+"
+tee_left = "+"
