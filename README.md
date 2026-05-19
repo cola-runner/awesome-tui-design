@@ -10,7 +10,7 @@
 
 <div align="center">
 
-![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md-16_themes-10b981?style=classic)
+![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md-17_themes-10b981?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/cola-runner/awesome-tui-design?label=Last%20update&style=classic)](https://github.com/cola-runner/awesome-tui-design)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=classic)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=classic)
@@ -46,6 +46,7 @@ Or clone the whole repo and let your agent pick a theme for you: `git clone http
 
 - [**Claude Code**](designs/claude-code/DESIGN.md) - Anthropic's coding agent. Warm terracotta `#D77757` accent, dashed ASCII input borders, hot pink `#FD5DB1` tool blocks, whimsical `· ✢ ✳ ✶ ✻ ✽` thinking spinner
 - [**Codex CLI**](designs/codex/DESIGN.md) - OpenAI's coding agent. Monochrome adaptive, cosine-wave shimmer animation, `▌│└` gutter output, 10 variants of 36-frame ASCII startup art
+- [**agenttrace**](designs/agenttrace/DESIGN.md) - AI coding-agent observability TUI. Rounded Lip Gloss panels, ANSI `82` neon health metrics, `█░` token bars, `━` health bars, compact cost/latency/session triage
 - [**Gemini CLI**](designs/gemini-cli/DESIGN.md) - Google's AI assistant. 33fps gradient brand spinner, semantic border colors by tool state, 15+ built-in theme system with color tokens
 
 ### Popular TUI Applications
