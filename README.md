@@ -1,3 +1,5 @@
+
+
 ![Theme Gallery](assets/gallery.png)
 
 <br/>
@@ -73,7 +75,7 @@ Unlike web DESIGN.md files that extract CSS, our TUI themes are **researched fro
 
 ## Request a DESIGN.md
 
-[Open an issue](../../issues/new?template=theme-request.yml) to request a theme for any TUI application or color scheme.
+[Open an issue](https://github.com/cola-runner/awesome-tui-design/issues/new) to request a theme for any TUI application or color scheme.
 
 ## Create Your Own
 
